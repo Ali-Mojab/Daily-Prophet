@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#v-nav{
+    
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+    color: #444;
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    top: -1060px;
+    
+}
+
+#v-nav ul{
+    
+    list-style-type: none;
+    position: relative;
+ 
+
+}
+
+#v-nav li > a{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: start;
+    padding: 10px 50px 10px 50px;
+    border-bottom: solid 1px #ddd;
+    color: #444;
+    font-size: 21px;
+  
+}
+
+#v-nav  li > a:hover{
+    cursor: url(https://thedailyprophet.net/wp-content/uploads/2019/02/the-daily-prophet-cursor-icon.png), auto;
+    color:#947d6f;
+}
+
+
+
+#border-btm-nav{
+   background: black;
+    width: 300px;
+   height: 2px;
+}
+
+#border-top-nav{
+    background: black;
+    width: 35px;
+   height: 4px;
+  
+}
+
+#no-border > li > a{
+    border: none !important;
+}
+
+#no-border > h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  
+}

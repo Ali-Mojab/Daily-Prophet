@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    background-color: #fefcf5;
+  cursor: url(https://thedailyprophet.net/wp-content/uploads/2019/02/the-daily-prophet-cursor-icon.png), auto;
+}
+
+#page{
+    width: 100%;
+   height: 3000px;
+   
+}
+
+#logo{
+    text-align: center;
+    margin: 30px 0px 20px 0;
+}
+
+#first-text{
+    text-align: center;
+   
+    margin: 30px 0px 40px 0px;
+}
+
+.hp-font{
+    font-family: 'harry p regular';
+    letter-spacing: 1px;
+    font-size: 35px;
+
+}
+
+.headers-hp-font{
+    font-family: 'harry p regular';
+    letter-spacing: 1px;
+    font-size: 60px;
+
+}
+
+.text-font{
+    font-family: garamond,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    color: #444;
+    font-weight: 400;
+}
+
+
+#wrapper{
+    margin: 0px 320px;
+    padding: 0px 15px;
+    height: 3000px;
+    
+    
+}
+
+
+@keyframes linear-move{
+    from{
+        left:0;
+        top:0;
+    }
+
+    50%{
+        left: 500px;
+        top: 0;
+    }
+
+
+    to{
+        left: 0;
+        top: 0;
+    }
+}
+
+#animation{
+ 
+    position: relative;
+    animation-name: linear-move;
+    animation-play-state: running;
+    animation-duration: 20s ;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    transition-delay: 5s;
+ 
+  
+}
+
+
+.first-letter  { 
+    font-size: 63px ;
+    float: left;
+    line-height: 63px;
+    font-family: Times New Roman;
+    margin: -5px 10px 0 0;
+    padding: 0 6px;
+    color: #000;
+    font-weight: bold;
+   
+    background-position: center;
+}
+
+
+.first-column{
+    box-sizing: border-box;
+    width: 24%;
+    float: left;
+    text-align: start;
+    padding: 15px 15px 0 15px;
+    border-right: solid 1px #666;
+    font-family: serif ,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #272626;
+    margin-bottom: 20px;
+    /* font-weight: lighter;
+    text-indent:1em hanging;
+    font-stretch: narrower;
+    ctrl + k + c = commenting */
+}
+.column{
+    box-sizing: border-box;
+    float: left;
+    width: 24%;
+    text-align: start;
+    padding: 15px 15px 0 15px;
+    border-right: solid 1px #666;
+    font-family: serif ,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #272626;
+    margin-bottom: 20px;
+   
+}
+
+.last-column{
+    box-sizing: border-box;
+    width: 24%;
+    float: left;
+    text-align: start;
+    padding: 15px 15px 0 15px;
+   
+    font-family: serif ,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #272626;
+    margin-bottom: 20px;
+    
+
+
+}
+
+.read-more a {
+    float: left;
+    color: white;
+    padding: 23px 15px;
+    text-decoration: none;
+    border: 1px solid#000;
+    background: #000;
+    margin-bottom: 40px;
+}
+
+.read-more  a :hover{
+    background: #eeeeee;
+    color:black;
+
+}
+
+
+.end-top-border{
+    position: relative;
+    left: -930px;
+    top: -26px;
+    background: black;
+    width: 900px;
+    height: 1px;
+    margin-bottom: 2px;
+}
+
+.end-btm-border{
+    position: relative;
+    top: -26px;
+    left: -930px;
+    background: black;
+    width: 900px;
+    height: 3px;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -100px;
+}
+
+.footer-socialMedias{
+    float: left;
+    width: 100%;
+    border-top: 1px solid#666;
+    border-bottom: 1px solid#666;
+    top: -900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.socialMedia-icons{
+   
+    padding: 15px;
+    text-align: center;
+   
+}
+
+.footer-infos{
+    float: left;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: -900px;
+    padding-right: 5px;
+}
+
+#Email{
+   
+    position: relative;
+    width: 24%;
+    height: 350px;
+    border-right: solid 1px black;
+
+}
+
+.footer-header-1{
+    
+    float: left;
+    position: absolute;
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+    color: #456;
+    font-size: 24px;
+    padding: 30px 0 10px 0;
+    
+}
+
+#email-infos{
+    position: relative;
+    top: 75px;
+    width: 90%;
+   
+    border-top: solid 1px black;
+}
+
+fieldset{
+    border: none;
+}
+
+form{
+height: 200px;
+margin: 30px auto;
+}
+
+input , label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #464646;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[ type="text"]{
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px black;
+    
+}
+
+input[ type="button"]{
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+    width: 87.95px;
+    height: 48px;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    background-color: #000;
+    color: #fff;
+}
+
+#footer-nav{
+    position: relative;
+   padding: 0 0 0 30px;
+    width: 23%;
+    height: 350px;
+    border-right: solid 1px black;
+
+}
+
+.footer-header-2{
+    
+    float: left;
+    position: absolute;
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+    color: #456;
+    font-size: 24px;
+    padding: 30px 0 10px 10px;
+}
+
+.Fnav-infos{
+  
+    width: 90%; 
+    position: relative;
+    top: 75px;
+    border-top: solid 1px black;
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+   
+    font-size: 23px;
+}
+
+.Fnav-infos > ul{
+    list-style-type: none;
+}
+
+.Fnav-infos li > a{
+    padding: 10px 0 0 10px;
+    color: #444;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: start;
+}
+
+.Fnav-infos li > a:hover{
+    cursor: url(https://thedailyprophet.net/wp-content/uploads/2019/02/the-daily-prophet-cursor-icon.png), auto;
+    color:#947d6f;
+   
+}
+
+#About-us{
+    position: relative;
+    padding: 0 0 0 30px;
+    width: 23%;
+    height: 350px;
+    border-right: solid 1px black;
+ 
+}
+
+#about-content{
+    width: 90%; 
+   position: relative;
+    top: 75px;
+    border-top: solid 1px black;
+    font-family: serif ,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #272626;
+    text-align: start;
+    padding-top: 20px;
+   
+}
+
+
+#Featured-in{
+    position: relative;
+    padding: 0 0 0 30px;
+    width: 20%;
+    height: 350px;
+}
+
+.footer-header-3{
+    float: left;
+    position: absolute;
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+    color: #456;
+    font-size: 24px;
+    padding: 30px 0 10px 10px;
+
+}
+
+
+#feautured-logos{
+    width: 90%; 
+    position: relative;
+    top: 75px;
+    border-top: solid 1px black;
+    float: left;
+    padding-top: 20px;
+}
+
+.end-of-footer{
+    width: 100%;
+    position: relative;
+    height: 5px;
+    border-top: solid 1px black;
+    top: -459px;
+}
+
+.footer-btm{
+    position: relative;
+    width: 100%;
+    top: -878px;
+    text-align: center;
+}
+
+#pad-img-footer{
+    padding-right: 15px;
+}
+
+
+#footer-logo{
+    text-align: center;
+   position: relative;
+ 
+}
+
+#footer-copyright{
+ text-align: center;
+}
+
+#The-end{
+    font-size: 13px;
+   
+    color: #272626;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.float-clear{
+    clear: both;
+}

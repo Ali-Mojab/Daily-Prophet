@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#h-nav{
+    border: solid 1px black;
+
+    width: 100%;
+}
+
+#h-nav ul{
+    list-style-type: none;
+    
+   
+   
+   position: relative;
+
+}
+
+#h-nav  li {
+    position: relative;
+   
+}
+
+#h-nav > ul > li{
+    
+    left: 280px;
+    float: left;
+}
+
+
+#h-nav li > a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    font-family: Agency FB,'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    color: #444;
+}
+
+#h-nav  li > a:hover{
+    background-color: #eeeeee;
+    color:#947d6f;
+    cursor: url(https://thedailyprophet.net/wp-content/uploads/2019/02/the-daily-prophet-cursor-icon.png), auto;
+    
+    
+        
+}
+
+
+
+#h-nav li > ul{
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    background: white;
+    border: solid 1px #d9d9d9;
+    z-index: 2;
+    font-size: 15px;
+   
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    top: 7px;
+    
+}   
+
+
+#h-nav li:hover > ul{
+    display: block;
+}
+
+
+#h-nav   ul > li > ul{
+    position: absolute;
+    
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	position: absolute;
+	border-top: 4px solid #000000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-bottom: 0 dotted;
+    content: "";
+    top: 25px;
+}
+
+
+#columns-caret{
+    left: 141px;
+}
+
+#Muggle-caret{
+    left: 153px;
+}
+
+#Daily-caret{
+    left: 236px;
+}
+
+#Glossary-caret{
+    left: 113px;
+}
+
